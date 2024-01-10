@@ -1,4 +1,8 @@
 <h1 align="center">
+  🚩 UNSUPPORTED FORK! The orgininal repo https://github.com/DylanVann/react-native-fast-image is not supported anymore. This repo fixed a critical problem for iOS 17 muntius/react-native-fast-image, but didn't update the releases or npm registry. This repo just includes the built dist folder so that it can be installed with npm by adding     "react-native-fast-image": "github:nReality/react-native-fast-image" to package.json
+</h1>
+
+<h1 align="center">
   🚩 FastImage
 </h1>
 
