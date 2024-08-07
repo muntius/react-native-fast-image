@@ -2,13 +2,7 @@
 	"name": "react-native-fast-image",
 	"version": "8.6.3",
 	"description": "🚩 FastImage, performant React Native image component.",
-	"keywords": [
-		"cache",
-		"cached",
-		"fastimage",
-		"image",
-		"priority"
-	],
+	"keywords": ["cache", "cached", "fastimage", "image", "priority"],
 	"homepage": "https://github.com/DylanVann/react-native-fast-image#readme",
 	"bugs": {
 		"url": "https://github.com/DylanVann/react-native-fast-image/issues"
@@ -22,14 +16,7 @@
 	"main": "dist/index.cjs.js",
 	"module": "dist/index.js",
 	"typings": "dist/index.d.ts",
-	"files": [
-		"android",
-		"!android/build",
-		"ios",
-		"!ios/build",
-		"dist",
-		"RNFastImage.podspec"
-	],
+	"files": ["android", "!android/build", "ios", "!ios/build", "dist", "RNFastImage.podspec"],
 	"scripts": {
 		"build": "dv-scripts build && cp src/index.js.flow dist/index.js.flow && cp src/index.js.flow dist/index.cjs.js.flow",
 		"lint": "dv-scripts lint",
@@ -46,14 +33,8 @@
 		"extends": "dv-scripts"
 	},
 	"jest": {
-		"coveragePathIgnorePatterns": [
-			"ReactNativeFastImageExample*",
-			"ReactNativeFastImageExampleServer*"
-		],
-		"modulePathIgnorePatterns": [
-			"ReactNativeFastImageExample*",
-			"ReactNativeFastImageExampleServer*"
-		],
+		"coveragePathIgnorePatterns": ["ReactNativeFastImageExample*", "ReactNativeFastImageExampleServer*"],
+		"modulePathIgnorePatterns": ["ReactNativeFastImageExample*", "ReactNativeFastImageExampleServer*"],
 		"preset": "react-native"
 	},
 	"resolutions": {
@@ -72,7 +53,7 @@
 		"metro-react-native-babel-preset": "^0.66.1",
 		"prettier": "^2.3.2",
 		"react": "18.1.0",
-		"react-native": "0.71.13",
+		"react-native": "0.72.15",
 		"react-test-renderer": "18.1.0",
 		"typescript": "^4.8.4"
 	},
